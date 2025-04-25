@@ -7,8 +7,8 @@ set -ex
 
 # EEA repository corresponding to this repository
 REPOSITORY_URL="git@github.com:eea/clcplus-core-openstack-setup.git"
-MASTER_BRANCH="master"
-REMOTE_MASTER_BRANCH="main"
+MASTER_BRANCH="qa"
+REMOTE_MASTER_BRANCH="qa"
 # files that will be deleted after merge and before commit.
 EXCLUDE_FILES=(
 
