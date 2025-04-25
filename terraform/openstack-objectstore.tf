@@ -1,5 +1,5 @@
 resource "openstack_objectstorage_container_v1" "clcpluscore-data" {
-  name   = "clcpluscore.data.prod"
+  name   = "clcpluscore.data"
 
   metadata = {
     prod = "true"

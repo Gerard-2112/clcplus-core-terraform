@@ -124,7 +124,7 @@ resource "openstack_networking_secgroup_rule_v2" "http_infra_from_all" {
 }
 
 data "openstack_networking_secgroup_v2" "default" {
-  secgroup_id = "07591943-e1dc-4743-9f79-cba7e71c95a8"
+  secgroup_id = "c7287547-79be-4dba-8d90-1d839cd32720"
   name        = "default"
 }
 
