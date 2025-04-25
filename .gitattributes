@@ -1,0 +1,10 @@
+**/secrets/** filter=git-crypt diff=git-crypt
+**/generated/** filter=git-crypt diff=git-crypt
+**/.ssh/** filter=git-crypt diff=git-crypt
+**/*-secret/** filter=git-crypt diff=git-crypt
+htpasswd* filter=git-crypt diff=git-crypt
+terraform.tfstate* filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+*.pem filter=git-crypt diff=git-crypt
+hosts filter=git-crypt diff=git-crypt
+master-config.yaml.tmpl filter=git-crypt diff=git-crypt
