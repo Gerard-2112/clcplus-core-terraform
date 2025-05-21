@@ -17,7 +17,7 @@ export OS_INTERFACE=public
 export OS_IDENTITY_API_VERSION=3
 export OS_REGION_NAME="WAW3-2"
 export OS_PROJECT_ID="$(cat ./project_id)"
-export OS_PROJECT_NAME="cloud_31366_qa"
+export OS_PROJECT_NAME="cloud_31366_bm"
 echo "Please enter your OpenStack username for project $OS_PROJECT_NAME: "
 read -r OS_USERNAME_INPUT
 export OS_USERNAME=$OS_USERNAME_INPUT
