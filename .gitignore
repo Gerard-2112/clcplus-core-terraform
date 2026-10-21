@@ -1,2 +1,13 @@
 *.qcow2
+
+#  Ignore the internal Terraform working directory
 .terraform/
+
+# gnore Terraform state files (Very important!)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Ignore any secret variable files that may be created locally
+*.tfvars
+*.tfvars.json
